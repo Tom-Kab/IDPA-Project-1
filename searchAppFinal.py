@@ -58,6 +58,11 @@ def main():
                             print(e)
                         
                         try:
+                            st.caption(f"Similarity Score: {result['_score']}")
+                        except Exception as e:
+                            print(e)
+                        
+                        try:
                             st.write(f"Article: {result['_source']['title_article']}")
                         except Exception as e:
                             print(e)
