@@ -1,0 +1,31 @@
+indexMapping = {
+    "properties":{
+        "Unnamed: 0":{
+            "type":"long"
+        },
+        "content":{
+            "type":"string"
+        },
+        "title":{
+            "type":"string"
+        },
+        "title_article":{
+            "type":"string"
+        },
+        "Date":{
+            "type":"string"
+        },
+        "stemmed_text":{
+            "type":"list"
+        },
+        "stemmed_string":{
+            "type":"string"
+        },
+        "ContentVector":{
+            "type":"dense_vector",
+            "dims":768,
+            "index":True,
+            "similarity":"l2_norm"
+        }
+    }
+}
