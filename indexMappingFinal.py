@@ -4,22 +4,22 @@ indexMapping = {
             "type":"long"
         },
         "content":{
-            "type":"string"
+            "type":"text"
         },
         "title":{
-            "type":"string"
+            "type":"text"
         },
         "title_article":{
-            "type":"string"
+            "type":"text"
         },
         "Date":{
-            "type":"string"
+            "type":"text"
         },
         "stemmed_text":{
-            "type":"list"
+            "type":"text"
         },
         "stemmed_string":{
-            "type":"string"
+            "type":"text"
         },
         "ContentVector":{
             "type":"dense_vector",
